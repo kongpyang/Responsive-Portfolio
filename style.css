@@ -1,0 +1,250 @@
+body {
+    margin-top: 0px;
+    background: url("images/concrete_seamless.png");
+}
+
+
+/* Navbar */
+
+.buttonmain {
+    margin-top: 0px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 200xp;
+    margin-bottom: 100xp;
+    background-color: #4aaaa5;
+   
+}
+/* all nav links together*/
+.containerlinks {
+    margin: 0px;
+    padding-left: 320px;
+    font-weight: 500;
+    
+}
+/*  nav links including button positioning... */
+.navbar-brand {
+    margin: 0px;
+    padding:0px;
+    padding-left: 290px;
+    size: 50px;
+   
+}
+/* About */
+.nav-item1 {
+  padding: 0px;
+  padding-left: 50px;
+    
+
+}
+/* Portfolio */
+.nav-item2 {
+  padding: 0px;
+  padding-left: 50px;
+   
+}
+/* Contact */
+.nav-item3 {
+  padding: 0px;
+  padding-left: 50px;
+   
+
+}
+
+/* Main body Container */
+
+.row {
+    margin-top: 0px;
+}
+/* body content */
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+/* body */
+
+.mainrow {
+
+    /* body background */
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.container2 {
+    /*  image and conent positioning*/
+    margin: 0px;
+    margin-left: 25px;
+    margin-right: 50px;
+    padding: 0px;
+}
+ 
+
+
+p {
+    padding-right: 10px;
+}
+
+.row {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.col-sm-3 {
+    margin: 0px;
+    margin-right: 0px;
+}
+
+
+
+/* Footer */
+
+
+
+footer {
+    margin-top: 350px;
+    padding: 30px 0;
+    padding-left: 200xp;
+    padding-right: 200xp;
+    clear: both;
+    font-size: 16px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  
+
+/* Footer */
+    
+}
+
+
+
+/* ********* Below are the three media inquries. Im not even finished with the other two files.*******/
+
+
+
+
+/* Media */
+
+@media screen and (max-width: 980px) {
+
+ /* The main button should be red */
+    .buttonmain {
+        padding-right: 50px;
+        background-color: #e03b08;
+    }
+
+    .buttonmain {
+        padding-right: 40px;
+
+    }
+
+    .containerlinks {
+        
+        margin-left:300px;
+
+    }
+
+    .mainrow {
+        margin-left: 10px;
+        margin-right: 100px;
+        
+    }
+
+
+   
+
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        /* The about me font should change in size and */
+        font-size: 40px;
+        /* The about me font should change in size and weight */
+        font-weight: 1000;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+@media screen and (max-width: 640px) {
+
+     /* This should change fonts */
+       p {
+        font-family:'Beth Ellen', cursive;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+    .container2 {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .mainrow {
+        margin-left: 150px;
+        margin-right: 100px;
+        
+    }
+
+    .containerlinks {
+        margin-left: 0px;
+
+    }
+
+    .navbar-brand {
+        padding-left: 160px;
+       
+
+
+}
+
+
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
