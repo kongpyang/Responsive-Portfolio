@@ -8,10 +8,12 @@ body {
 
 .buttonmain {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-right: 55px;
     padding-left: 55px;
     padding-bottom: 200xp;
     margin-bottom: 100xp;
+    height: 70px;
     background-color: #4aaaa5;
    
 }
@@ -108,11 +110,11 @@ p {
 
 
 
-footer {
+.footerrow {
     margin-top: 350px;
-    padding: 30px 0;
-    padding-left: 200xp;
-    padding-right: 200xp;
+    padding: 60px 0;
+    padding-left: 100xp;
+    padding-right: 100xp;
     clear: both;
     font-size: 16px;
     color: #ffffff;
