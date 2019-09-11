@@ -3,12 +3,13 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/admin-ajax.png");
+    background: url("../images/bbg.jpg");
     background-size: cover;
     background-position: fluid;
     background: absolute;
+    background-attachment: fixed;
 
-    
+  
   }
   
   * {
@@ -22,7 +23,11 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    color: #000000
+    color: #f1eded
+  }
+
+  p {
+    text-align: left;
   }
   
   h1,
@@ -42,6 +47,8 @@ body {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #000000;
+    text-shadow: 0px 5px 10px rgba(10, 10, 10, 0.849);
+
   }
   
   h1 {
@@ -65,15 +72,16 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
-    background: #525151;
-    border-bottom: 2px solid rgba(80, 151, 245, 0.5);
-    box-shadow: 20px 10px 10px rgba(80, 151, 245, 0.5);
+    /* background: #525151; */
+    border-bottom: 2px solid #1DA1F2;
+    box-shadow: 20px 10px 10px rgba(80, 151, 245, 0.2);
+    background: #525151(245, 244, 244, 0.7)!important;
 
   }
 
 
   #logo:hover {
-    background: rgba(2, 104, 187, 0.5);
+    background: #1DA1F2;
     font-size:32px;
     text-shadow: 10px 5px 5px rgba(168, 164, 164, 0.4);
 
@@ -94,8 +102,6 @@ body {
     box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.4);
 
         
-  
-  
   }
   
   nav {
@@ -110,11 +116,15 @@ body {
     line-height: 18px;
     color: #999;
     text-decoration: none;
-    border-left: 1px solid #efefef;
+    border-left: 0px solid #efefef;
   }
   
-  nav a:first-child {
+  nav a:first-child.hover {
     border-left: 0 none;
+  }
+
+  nav a.hover {
+    font-size: 50px;
   }
   
   /* footer */
@@ -124,18 +134,17 @@ body {
     clear: both;
     font-size: 12px;
     color: #525151;
-    color: #525151;
     text-align: center;
-    background: #525151;
     border-top: 0px solid #525151;
     height: 5px;
+    background: #525151(245, 244, 244, 0.1);
   }
   
   h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #525151;
+    border-bottom: 2px solid #ffffff;
   }
   
   /* main */
@@ -156,10 +165,11 @@ body {
     margin-top: 20px;
     background: rgba(245, 244, 244, 0.7)!important;
     border: 1px solid #dddddd;
-    transition: all 3s ease 0s;
+    transition: all 1s ease 0s;
     border-top-left-radius: 12%;
-    border-bottom-right-radius: 12%;
-    box-shadow: 20px 10px 10px rgba(80, 151, 245, 0.5);
+    border-bottom-right-radius: 0%;
+    box-shadow: 10px 10px 10px rgb(114, 187, 231);
+
 
   }
   
@@ -182,6 +192,8 @@ body {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    box-shadow: 20px 10px 10px rgb(98, 99, 99);
+
   }
 
   img:hover {
@@ -366,35 +378,35 @@ body {
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     transform: translate(0, -8);
   }
-  
 
 .wrapper {
     width: 100px;
     height: 100px;
-    background: #525151;
+    background: #525151(245, 244, 244, 0.0)!important;
+
     position: relative;
-    -webkit-animation: myfirst 5s 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation: myfirst 9s 0; /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-    animation: myfirst 5s 2;
-    animation-direction: alternate;
+    animation: myfirst 2s 1;
+    animation-direction: 0;
     margin-left: 170px;
   }
   
   /* Safari 4.0 - 8.0 */
   @-webkit-keyframes myfirst {
-    0%   {background: #525151; left: 0px; top: 0px;}
-    25%  {background: #525151; left: 200px; top: 0px;}
-    50%  {background: #525151; left: 200; top: 50px;}
-    75%  {background: #525151; left: 0px; top: 200px;}
-    100% {background: #525151; left: 0px; top: 0px;}
+    0%   {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
+    25%  {background: #525151(245, 244, 244, 0.0); left: 200px; top: 0px;}
+    50%  {background: #525151(245, 244, 244, 0.0); left: 200; top: 50px;}
+    75%  {background: #525151(245, 244, 244, 0.0); left: 0px; top: 200px;}
+    100% {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
   }
   
   @keyframes myfirst {
-    0%   {background: #525151; left: 0px; top: 0px;}
-    25%  {background: #525151; left: 500px; top: 0px;}
-    50%  {background: #525151; left: 500px; top: 300px;}
-    75%  {background: #525151; left: 0px; top: 300px;}
-    100% {background: #525151; left: 0px; top: 0px;}
+    0%   {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
+    25%  {background: #525151(245, 244, 244, 0.0); left: 500px; top: 0px;}
+    50%  {background: #525151(245, 244, 244, 0.0); left: 500px; top: 300px;}
+    75%  {background: #525151(245, 244, 244, 0.0); left: 0px; top: 300px;}
+    100% {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
   }
 }
 
