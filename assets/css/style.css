@@ -385,11 +385,12 @@ height: 100px;
 background: #525151(245, 244, 244, 0.0)!important;
 
 position: relative;
--webkit-animation: myfirst 9s 0; /* Safari 4.0 - 8.0 */
+-webkit-animation: myfirst .01s 90; /* Safari 4.0 - 8.0 */
 -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-animation: myfirst 2s 1;
+animation: myfirst .004s 250;
 animation-direction: 0;
 margin-left: 170px;
+
 }
 
 /* Safari 4.0 - 8.0 */
