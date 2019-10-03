@@ -1,2 +1,2 @@
 # Basic-Portfolio
-My Main Portfolio
+Welcome to my(Kong P. Yang) Portfolio. 
