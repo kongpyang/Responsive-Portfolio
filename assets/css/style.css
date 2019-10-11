@@ -418,8 +418,8 @@ margin-left: 170px;
 }
 
 @keyframes myfirst {
-0%   {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
-25%  {background: #525151(245, 244, 244, 0.0); left: 500px; top: 0px;}
+0%   {background: hsl(60, 83%, 44%)(245, 244, 244, 0.0); left: 0px; top: 0px;}
+25%  {background: #525251(245, 244, 244, 0.0); left: 500px; top: 0px;}
 50%  {background: #525151(245, 244, 244, 0.0); left: 500px; top: 300px;}
 75%  {background: #525151(245, 244, 244, 0.0); left: 0px; top: 300px;}
 100% {background: #525151(245, 244, 244, 0.0); left: 0px; top: 0px;}
